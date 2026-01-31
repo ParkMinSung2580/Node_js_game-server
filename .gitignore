@@ -1,0 +1,26 @@
+# 환경 변수 (보안상 커밋 금지)
+.env
+.env.*
+
+# Node.js 모듈
+node_modules/
+
+# 로그 파일 (실행 환경 전용)
+# 서버 실행 중 생기는 기록
+# 에러, 접속 기록, 디버그 로그
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# PM2가 관리하는 프로세스 ID 정보
+pids/
+
+# macOS / Windows가 자동 생성하는 파일
+.DS_Store
+Thumbs.db
+
+# VSCode / IntelliJ 설정 폴더
+.vscode/
+.idea/
